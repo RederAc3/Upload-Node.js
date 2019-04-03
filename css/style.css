@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    background: #e3e3e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body h1 {
+    text-align: center;
+    color: #979797;
+
+}
+
+body form {
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 700;
+
+}
+
+body form input.name {
+    padding: 10px 25px 10px 0;
+    margin: 20px;
+    border: none;
+    font-size: 20px;
+
+}
+
+body form input.upload {
+    padding: 10px 25px 10px 0;
+    margin-top: 20px;
+    border: none;
+
+}
+
+body form input.send {
+    background: #00ff00;
+    padding: 10px 25px;
+    margin-top: 20px;
+    transition: .5s;
+    border: none;
+
+}
+
+body form input.send:hover {
+    background: #00c700;
+}
